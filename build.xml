@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="gitlist" default="build">
     <property name="vendordir" value="${basedir}/vendor/bin" />
-    <target name="build" depends="prepare,lint,phploc,pdepend,phpmd,phpcpd,phpunit,phpcs" />
+    <target name="build" depends="prepare,phploc,pdepend,phpmd,phpcpd,phpunit,phpcs" />
     <target name="build-package" depends="prepare-package,package" />
 
     <target name="clean" description="Clean build artifacts">
