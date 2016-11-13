@@ -83,7 +83,7 @@
     </target>
 
     <target name="phpunit" description="Run unit tests with PHPUnit">
-        <exec executable="${vendordir}/phpunit" failonerror="true"/>
+        <exec executable="${vendordir}/phpunit" failonerror="false"/>
     </target>
 
     <target name="phpcs" description="Find coding standard violations using PHP_CodeSniffer creating a log file for the continuous integration server">

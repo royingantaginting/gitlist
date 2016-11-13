@@ -1,0 +1,6 @@
+gitlist:
+    build: .
+    command: ant build
+    dockerfile: Dockerfile.build
+    volumes:
+        - .:/tmp/
